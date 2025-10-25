@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "happy-90s-space-game",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
